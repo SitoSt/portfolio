@@ -1,0 +1,193 @@
+@import url(./animations.css);
+@import url(./vars.css);
+
+#Overview {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    flex-direction: column;
+    padding-top: 0rem;
+    z-index: 1;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+
+    justify-content: center;
+    align-items: center;
+}
+.avatar {
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    margin-right: 20px;
+
+    animation: apear-opacity 0.5s ease-in-out,
+    apear-scale 0.2s ease-in-out;
+}
+.me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name-container {
+    position: relative;
+    width: fit-content;
+    overflow: visible;
+    width: 19ch;
+    font-size: 4rem;
+}
+.name  {
+    display: block;
+    font-family: monospace;
+    box-sizing: content-box;
+    width: 19ch;
+    margin: 0;
+    padding-left: 10px;
+
+    color: whitesmoke;
+
+    text-wrap: nowrap;
+    overflow: hidden;
+
+    font-size: 4rem;
+    text-align: start;
+
+    animation: typing 4s steps(19);
+}
+
+
+.me hr {
+    margin: 0;
+    border-color: var(--bg-secondary);
+    animation: apear-opacity 0.5s ease-in-out;
+}
+.me div.skills {
+    display: flex;
+    margin: 0;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.me div.skills p {
+    margin: 0;
+
+    text-shadow: 2px 2px 3px var(--secondary-color);
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--text-secondary-color);
+
+
+    text-align: center;
+    animation: apear-opacity 0.5s ease-in-out;
+}
+.me div.skills .ability {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    margin-left: 13px;
+    animation: apear-opacity 0.5s ease-in-out;
+}
+
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 3rem;
+}
+
+#contacto ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    
+}
+
+.contact-item a {
+    text-decoration: none;
+    box-sizing: content-box;
+    animation: apear-opacity 0.5s ease-in-out;
+
+}
+
+.contact-item a img {
+    width: 50px;
+    transition: 0.3s ease-in-out transform;
+}
+
+.contact-item a img:hover {
+    transform: scale(1.2);
+}
+
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    padding: 5px;
+    padding-inline: 15px;
+    margin-top: 5rem;
+
+    border-left: 2px solid whitesmoke;
+
+    justify-content: center;
+    align-items: center;
+
+    animation: apear-opacity 0.2s ease-in-out;
+}
+
+.presentacion p {
+    margin-block: 10px !important;
+    text-wrap: pretty;
+
+    color: var(--text-primary-color);
+    letter-spacing: 1px;
+    font-size: large;
+    text-align: center;
+}
+
+.scroll-advise {
+    position: absolute;
+    bottom: 10px;
+
+    view-timeline-name: --scroll-advise;
+    view-timeline-axis: block;
+
+    animation-timeline: --scroll-advise;
+    animation-name: disappear;
+}
+
+.scroll-advise p {
+    margin-bottom: 3px;
+
+    color: rgba(245, 245, 245, 0.70);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.scroll-arrow {
+    width: 20px;
+    height: 20px;
+
+    margin-inline: 6px;
+
+    animation: jump 2s ease-out infinite;
+}

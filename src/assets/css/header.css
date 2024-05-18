@@ -1,0 +1,60 @@
+@import url(./animations.css);
+@import url(./vars.css);
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+
+    margin: 0;
+    padding: 6px;
+
+    top: 20px;
+    right: 0;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#page-nav ul {
+    display: flex;
+    margin: 0;
+    padding-inline: 10px;
+    padding-block: 5px;
+    width: fit-content;
+
+    background: conic-gradient(
+        rgba(31, 51, 176, 0.45),
+        rgba(103, 20, 148, 0.45),
+        rgba(85, 7, 168, 0.45),
+        rgba(103, 20, 148, 0.45),
+        rgba(31, 51, 176, 0.45)
+    );
+    border-radius: 20px;
+    background-size: 200% 500% ;
+    box-shadow: 0px 0px 6px 2px rgba(87, 83, 174, 0.4);
+
+    backdrop-filter: blur(0.7rem);
+    -webkit-backdrop-filter: blur(0.7rem);
+
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    animation: gradient-animation 5s infinite,
+    apear-header 0.42s ease-in-out;
+}
+
+.nav-item {
+    padding-inline: 20px;
+
+    text-decoration: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}

@@ -1,0 +1,16 @@
+:root {
+    --radius-sm: 10px;
+    --radius-lm: 15px;
+    --radius-xl: 20px;
+
+    --bg-body: rgb(0, 0, 0);
+    --bg-secondary: #5b618bb7;
+
+    --primary-color: #f5f5f5;
+    --secondary-color: rgb(71, 88, 145);
+    --color-accent: rgb(68, 22, 207);
+
+    --text-primary-color: #d9f7d2;
+    --text-secondary-color: rgb(155, 164, 187);
+
+}
