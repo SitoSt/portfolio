@@ -17,7 +17,7 @@ export default function Projects({ project }: { project: Project }) {
                 <div className="project-head">
                     <h1>{project.name}</h1>
                     {project.url &&
-                        <a href={project.url} target="_blank" rel="noreferrer">{project.url}</a>
+                        <a href={project.url} target="_blank" rel="noreferrer">Enlace 🔗</a>
                     }
 
 

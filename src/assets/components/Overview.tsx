@@ -28,7 +28,7 @@ export default function Overview() {
                             <a href="https://github.com/SitoSt" target="_blank" rel="noopener noreferrer"><img src="/imgs/ico-github.svg" alt="" /></a>
                         </li>
                         <li className='contact-item'>
-                            <a href="https://www.linkedin.com/in/alfonso-lópez-garre-0443a6302/" target="_blank" rel="noopener noreferrer"><img src="/imgs/logo-Linkedin.svg" alt="" /></a>
+                            <a href="https://www.linkedin.com/in/alfonsolopezgarre" target="_blank" rel="noopener noreferrer"><img src="/imgs/logo-Linkedin.svg" alt="" /></a>
                         </li>
                         <li className='contact-item'>
                             <a href=""><img src="/imgs/ico-mail.svg" alt="" /></a>
