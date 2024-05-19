@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+# Porfolio de Sito
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es mi porfolio donde subiré todos mis progresos y publicare oficialmente
+mis proyectos.
 
-## Available Scripts
+Por ahora se podrá entrar por [alfonsogarre.com](alfonsogarre.com).
 
-In the project directory, you can run:
+## Scripts del proyecto
+
+Como el proyecto el proyecto esta hecho en yarn mostrare los ejemplos con yarn.
+Se pueden usar los comando típicos de React, que son los siguientes:
 
 ### `yarn start`
 
@@ -39,8 +43,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Maldita pereza
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Obviamente no considero necesario traducir ni reescribir la descripción de los scripts.
+React crea unas muy buena descripciones y encima adjunta información por defecto

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1125px" height="710px" viewBox="0 0 1125 710" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo-alfonso-garre</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo-alfonso-garre">
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="15" x="7.5" y="7.5" width="185" height="185"></rect>
+            <text id="A" font-family="CascadiaCodePLRoman-Bold, Cascadia Code PL" font-size="90" font-weight="bold" fill="#FFFFFF">
+                <tspan x="30.1328125" y="101">A</tspan>
+            </text>
+            <text id="G" font-family="CascadiaCodePLRoman-Bold, Cascadia Code PL" font-size="90" font-weight="bold" fill="#FFFFFF">
+                <tspan x="115.132812" y="101">G</tspan>
+            </text>
+            <path d="M99.4950707,43.5946433 C99.2697399,81.5946433 99.0444092,119.594643 98.8190785,157.594643" id="Path" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round"></path>
+            <path d="M859.495071,199.594643 C859.26974,254.92798 859.044409,310.261307 858.819079,365.594643" id="Path-Copy" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"></path>
+            <path d="M860.495071,519.594643 C860.26974,579.594643 860.044409,639.594643 859.819079,699.594643" id="Path-Copy-2" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"></path>
+            <polyline id="Path" stroke="#FFFFFF" stroke-width="20" points="860 700 200 700 200 200 860 200"></polyline>
+            <text id="Alfonso-Garre" fill="#FFFFFF" fill-rule="nonzero" font-family="CascadiaCodePLRoman-Bold, Cascadia Code PL" font-size="100" font-weight="bold">
+                <tspan x="348.640625" y="459">Alfonso Garre</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

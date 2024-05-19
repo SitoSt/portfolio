@@ -1,6 +1,6 @@
 import "../css/projects.css";
 
-export interface Project {
+interface Project {
     name: string;
     imgUrl: string;
     resumen: string;
@@ -9,7 +9,7 @@ export interface Project {
     GitHubUrl?: string;
 }
 
-export function Projects({ project }: { project: Project }) {
+export default function Projects({ project }: { project: Project }) {
     return (
         <div className="project-container">
             <img src={project.imgUrl} alt="" className="project-img" />
