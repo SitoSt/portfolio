@@ -5,7 +5,7 @@ export default function Overview() {
     return (
         <section id='Overview'>
             <div className='profile'>
-                <img className='avatar' src='/imgs/avatar.png'></img>
+                <img className='avatar' src='/imgs/avatar.JPG' alt='Foto de perfil'></img>
 
                 <div className='me'>
                     <div className='name-container'>
@@ -31,19 +31,19 @@ export default function Overview() {
                             <a href="https://www.linkedin.com/in/alfonsolopezgarre" target="_blank" rel="noopener noreferrer"><img src="/imgs/logo-Linkedin.svg" alt="" /></a>
                         </li>
                         <li className='contact-item'>
-                            <a href=""><img src="/imgs/ico-mail.svg" alt="" /></a>
+                            <a href="mailto:alfonsogarrelopez@gmail.com"><img src="/imgs/ico-mail.svg" alt="" /></a>
                         </li>
                     </ul>
                 </div>
             </div>
 
             <div className='presentacion'>
-                <p className=''>
+                <p>
                     Empecé a programar con 12 años, primero aprendí a desarrollar videojuegos en unity con
                     un curso de Domestika. Desde entonces he aprendido gran cantidad de lenguajes y me he
                     movido por muchos lenguajes y tecnologías.
                 </p>
-                <p className=''>
+                <p>
                     Llevo años avanzando en el desarrollo web, lo que mas me gusta es el back-end, pero también
                     domino front-end y mucho mas para poder desarrollar mis proyectos
                 </p>
@@ -52,10 +52,10 @@ export default function Overview() {
             <div className='scroll-advise'>
                 <p>Mis proyectos</p>
                 <div>
-                    <img src="/imgs/chevron.svg" alt="" className='scroll-arrow' />
-                    <img src="/imgs/chevron.svg" alt="" className='scroll-arrow' />
-                    <img src="/imgs/chevron.svg" alt="" className='scroll-arrow' />
-                    <img src="/imgs/chevron.svg" alt="" className='scroll-arrow' />
+                    <img src="/imgs/chevron.svg" alt="Mis proyectos" className='scroll-arrow' />
+                    <img src="/imgs/chevron.svg" alt="Mis proyectos" className='scroll-arrow' />
+                    <img src="/imgs/chevron.svg" alt="Mis proyectos" className='scroll-arrow' />
+                    <img src="/imgs/chevron.svg" alt="Mis proyectos" className='scroll-arrow' />
                 </div>
             </div>
 
