@@ -42,9 +42,10 @@ function App() {
 
         <Project project={{
           name: "Clima App",
-          imgUrl: "/imgs/Preview_Placeholder.png",
-          resumen: "Web simple que se conecta a la API de OpenWeather paramostrar el clima. Resulta una buena practica de manejo de API con NEXT",
-          skillsImgUrl: ['imgs/logo-next.svg', 'imgs/logo-react.svg', 'imgs/logo-docker.svg'],
+          imgUrl: "/imgs/Preview_Clima_App.jpeg",
+          url: "https://clima.alfonsogarre.com/",
+          resumen: "Web simple que se conecta a la API de OpenWeather para mostrar el clima. Resulta una buena practica de manejo de API con NEXT",
+          skillsImgUrl: ['imgs/logo-next.svg', 'imgs/logo-react.svg', 'imgs/logo-typescript.svg'],
           GitHubUrl: 'https://github.com/SitoSt/Clima'
         }} />
       </section>

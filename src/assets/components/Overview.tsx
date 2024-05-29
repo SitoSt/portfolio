@@ -28,10 +28,10 @@ export default function Overview() {
                             <a href="https://github.com/SitoSt" target="_blank" rel="noopener noreferrer"><img src="/imgs/ico-github.svg" alt="" /></a>
                         </li>
                         <li className='contact-item'>
-                            <a href="https://www.linkedin.com/in/alfonsolopezgarre" target="_blank" rel="noopener noreferrer"><img src="/imgs/logo-Linkedin.svg" alt="" /></a>
+                            <a href="mailto:alfonsogarrelopez@gmail.com"><img src="/imgs/ico-mail.svg" alt="" /></a>
                         </li>
                         <li className='contact-item'>
-                            <a href="mailto:alfonsogarrelopez@gmail.com"><img src="/imgs/ico-mail.svg" alt="" /></a>
+                            <a href="https://www.linkedin.com/in/alfonsolopezgarre" target="_blank" rel="noopener noreferrer"><img src="/imgs/logo-Linkedin.svg" alt="" /></a>
                         </li>
                     </ul>
                 </div>
