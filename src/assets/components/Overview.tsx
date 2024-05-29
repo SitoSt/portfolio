@@ -9,7 +9,7 @@ export default function Overview() {
 
                 <div className='me'>
                     <div className='name-container'>
-                        <h1 className='name border'>Alfonso López Garre</h1>
+                        <h1 className='name'>Alfonso López Garre</h1>
                     </div>
                     <hr />
                     <div className='skills'>

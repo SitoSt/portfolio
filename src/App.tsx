@@ -6,6 +6,7 @@ import Contact from './assets/components/Contact';
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
         <img src="/imgs/logo-alfonso-garre.svg" alt="logo Alfonso" className='logo' />
         <nav className='header-nav'>

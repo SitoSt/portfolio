@@ -28,6 +28,7 @@
     border-radius: 50%;
     margin-right: 20px;
 
+border: 1px solid rgb(var(--accent-color));
     animation: apear-opacity 0.5s ease-in-out,
     apear-scale 0.2s ease-in-out;
 }
@@ -52,7 +53,7 @@
     margin: 0;
     padding-left: 10px;
 
-    color: whitesmoke;
+    color: rgb(var(--primary-color));
 
     text-wrap: nowrap;
     overflow: hidden;
@@ -66,7 +67,7 @@
 
 .me hr {
     margin: 0;
-    border-color: var(--bg-secondary);
+    border-color: rgb(var(--secondary-color));
     animation: apear-opacity 0.5s ease-in-out;
 }
 .me div.skills {
@@ -79,11 +80,11 @@
 .me div.skills p {
     margin: 0;
 
-    text-shadow: 2px 2px 3px var(--secondary-color);
+    text-shadow: 2px 2px 3px rgba(var(--secondary-color), 0.3);
     font-size: 2rem;
     font-weight: 600;
     letter-spacing: 2px;
-    color: var(--text-secondary-color);
+    color: #fbffc7;
 
 
     text-align: center;
@@ -126,12 +127,13 @@
 }
 
 .contact-item a img {
-    width: 50px;
-    transition: 0.3s ease-in-out transform;
+    width: 40px;
+        margin: 5px;
+        transition: 0.2s ease-in-out transform;
 }
 
 .contact-item a img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
@@ -144,7 +146,7 @@
     padding-inline: 15px;
     margin-top: 5rem;
 
-    border-left: 2px solid whitesmoke;
+    border-left: 2px solid rgba(var(--secondary-color), 0.3);
 
     justify-content: center;
     align-items: center;
@@ -156,7 +158,7 @@
     margin-block: 10px !important;
     text-wrap: pretty;
 
-    color: var(--text-primary-color);
+    color: rgb(var(--primary-color));
     letter-spacing: 1px;
     font-size: large;
     text-align: center;
@@ -164,8 +166,11 @@
 
 .scroll-advise {
     position: absolute;
+    display: flex;
+        flex-direction: column;
     bottom: 10px;
 
+    justify-content: center;
     view-timeline-name: --scroll-advise;
     view-timeline-axis: block;
 
@@ -181,11 +186,17 @@
     font-weight: 500;
 }
 
+.scroll-advise div {
+    display: flex;
+    gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
 .scroll-arrow {
     width: 20px;
     height: 20px;
 
-    margin-inline: 6px;
 
     animation: jump 2s ease-out infinite;
 }

@@ -3,14 +3,10 @@
     --radius-lm: 15px;
     --radius-xl: 20px;
 
-    --bg-body: rgb(29, 31, 40);
-    --bg-secondary: #5b618bb7;
-
-    --primary-color: #f5f5f5;
-    --secondary-color: 24, 55, 194;
-    --color-accent: rgb(68, 22, 207);
-
-    --text-primary-color: #f5ebff;
-    --text-secondary-color: rgb(176, 174, 182);
+    --bg-color: 31, 43, 64;
+        --primary-color: 241, 240, 242;
+        --secondary-color: 46, 186, 240;
+        --tertiary-color: 171, 96, 56;
+        --accent-color: 150, 162, 6;
 
 }
