@@ -8,7 +8,7 @@ function App() {
     <div className="App">
 
       <header className="App-header">
-        <img src="/imgs/logo-alfonso-garre.svg" alt="logo Alfonso" className='logo' />
+        <img src="/imgs/svg/logo_Alfonso_Garre.svg" alt="logo Alfonso" className='logo' />
         <nav className='header-nav'>
 
           <ul className='nav-list'>
@@ -34,19 +34,19 @@ function App() {
       <section id="projects">
         <Project project={{
           name: "Dl YouTube",
-          imgUrl: "/imgs/Preview_Dl_YouTube.jpeg",
+          imgUrl: "/imgs/projects/preview_dlyoutube.webp",
           url: "https://dlyoutube.alfonsogarre.com",
           resumen: "Una web para descargar videos de YouTube. Fue un desafió desarrollarla en Flask y aprender a desplegarla.",
-          skillsImgUrl: ['imgs/logo-python.svg', 'imgs/logo-flask.svg', 'imgs/logo-docker.svg'],
+          skillsImgUrl: ['imgs/svg/python.svg', 'imgs/svg/flask.svg', 'imgs/svg/docker.svg'],
           GitHubUrl: 'https://github.com/SitoSt/Dl_YouTube'
         }} />
 
         <Project project={{
           name: "Clima App",
-          imgUrl: "/imgs/Preview_Clima_App.jpeg",
+          imgUrl: "/imgs/projects/preview_clima_app.webp",
           url: "https://clima.alfonsogarre.com/",
           resumen: "Web simple que se conecta a la API de OpenWeather para mostrar el clima. Resulta una buena practica de manejo de API con NEXT",
-          skillsImgUrl: ['imgs/logo-next.svg', 'imgs/logo-react.svg', 'imgs/logo-typescript.svg'],
+          skillsImgUrl: ['imgs/svg/next.svg', 'imgs/svg/react.svg', 'imgs/svg/typescript.svg'],
           GitHubUrl: 'https://github.com/SitoSt/Clima'
         }} />
       </section>

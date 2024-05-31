@@ -19,7 +19,7 @@ export default function Project({ project }: { project: ProjectModel }) {
                     {project.url &&
                         <a href={project.url} target="_blank" rel="noreferrer">
                             Enlace de la web
-                            <img src="/imgs/www.svg" alt="www" />
+                            <img src="/imgs/svg/www.svg" alt="www" />
                         </a>
                     }
 
@@ -31,7 +31,7 @@ export default function Project({ project }: { project: ProjectModel }) {
                 <div className="project-footer">
                     {project.GitHubUrl &&
                         <a href={project.GitHubUrl} className="project-github">
-                            <img src="/imgs/ico-github.svg" alt="Proyecto de GitHub" />
+                            <img src="/imgs/svg/github.svg" alt="Proyecto de GitHub" />
                             Proyecto de GitHub
                         </a>
                     }

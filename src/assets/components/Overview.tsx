@@ -5,7 +5,7 @@ export default function Overview() {
     return (
         <section id='Overview'>
             <div className='profile'>
-                <img className='avatar' src='/imgs/avatar.JPG' alt='Foto de perfil'></img>
+                <img className='avatar' src='/imgs/avatar.webp' alt='Foto de perfil'></img>
 
                 <div className='me'>
                     <div className='name-container'>
@@ -15,23 +15,23 @@ export default function Overview() {
                     <div className='skills'>
                         <p>Programador Web full-stack</p>
 
-                        <img className='ability' src="/imgs/logo-react.svg" alt="React" />
-                        <img className='ability' src="/imgs/logo-html.svg" alt="html" />
-                        <img className='ability' src="/imgs/logo-css.svg" alt="css" />
-                        <img className='ability' src="/imgs/logo-python.svg" alt="python" />
+                        <img className='ability' src="/imgs/svg/react.svg" alt="React" />
+                        <img className='ability' src="/imgs/svg/html5.svg" alt="html" />
+                        <img className='ability' src="/imgs/svg/css.svg" alt="css" />
+                        <img className='ability' src="/imgs/svg/python.svg" alt="python" />
                     </div>
                 </div>
 
                 <div id="contacto">
                     <ul>
                         <li className='contact-item'>
-                            <a href="https://github.com/SitoSt" target="_blank" rel="noopener noreferrer"><img src="/imgs/ico-github.svg" alt="" /></a>
+                            <a href="https://github.com/SitoSt" target="_blank" rel="noopener noreferrer"><img src="/imgs/svg/github.svg" alt="Perfil de GitHub" /></a>
                         </li>
                         <li className='contact-item'>
-                            <a href="mailto:alfonsogarrelopez@gmail.com"><img src="/imgs/ico-mail.svg" alt="" /></a>
+                            <a href="mailto:alfonsogarrelopez@gmail.com"><img src="/imgs/svg/mail.svg" alt="Correo electrónico" /></a>
                         </li>
                         <li className='contact-item'>
-                            <a href="https://www.linkedin.com/in/alfonsolopezgarre" target="_blank" rel="noopener noreferrer"><img src="/imgs/logo-Linkedin.svg" alt="" /></a>
+                            <a href="https://www.linkedin.com/in/alfonsolopezgarre" target="_blank" rel="noopener noreferrer"><img src="/imgs/svg/Linkedin.svg" alt="Perfil de linkedIn" /></a>
                         </li>
                     </ul>
                 </div>
@@ -52,10 +52,10 @@ export default function Overview() {
             <div className='scroll-advise'>
                 <p>Mis proyectos</p>
                 <div>
-                    <img src="/imgs/chevron.svg" alt="Mis proyectos" className='scroll-arrow' />
-                    <img src="/imgs/chevron.svg" alt="Mis proyectos" className='scroll-arrow' />
-                    <img src="/imgs/chevron.svg" alt="Mis proyectos" className='scroll-arrow' />
-                    <img src="/imgs/chevron.svg" alt="Mis proyectos" className='scroll-arrow' />
+                    <img src="/imgs/svg/chevron.svg" alt="Mis proyectos" className='scroll-arrow' />
+                    <img src="/imgs/svg/chevron.svg" alt="Mis proyectos" className='scroll-arrow' />
+                    <img src="/imgs/svg/chevron.svg" alt="Mis proyectos" className='scroll-arrow' />
+                    <img src="/imgs/svg/chevron.svg" alt="Mis proyectos" className='scroll-arrow' />
                 </div>
             </div>
 
