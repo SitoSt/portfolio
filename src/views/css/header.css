@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    width: fit-content;
+    gap: 20px;
+    padding: 12px;
+        padding-inline: 25px;
+
+    z-index: 2;
+
+    background-color: rgba(var(--bg-color), 0.6);
+    border-radius: 20px;
+
+    box-shadow: 1px 1px 0.5rem -1px rgba(40, 23, 102, 0.7);
+
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+
+}
+
+.header-nav {
+    display: flex;
+    padding: 0;
+
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 25px
+}
+
+.nav-item {
+    text-decoration: none;
+    padding: 0;
+}
+
+
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(var(--primary-color));
+    font-size: 1.3rem;
+    font-weight: 500;
+
+    transition: 0.2s ease-in-out color;
+}
+
+.nav-link:hover {
+    color: rgb(var(--accent-color));
+}

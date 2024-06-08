@@ -1,9 +1,9 @@
+import './css/index.css';
+import { Analytics } from "@vercel/analytics/react"
+import { App } from './App';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './assets/css/index.css';
-import App from './App';
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

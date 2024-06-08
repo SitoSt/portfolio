@@ -1,13 +1,16 @@
 @import url(./vars.css);
 
 @keyframes typing {
-    from { width: 0}
+    from {
+        width: 0
+    }
 }
 
 @keyframes apear-opacity {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 100%;
     }
@@ -18,28 +21,18 @@
         opacity: 1;
         scale: 100%;
     }
+
     to {
         opacity: 0;
         scale: 80%;
     }
 }
 
-@keyframes jump {
-    0% {
-        transform: translateY(0);
-    }
-    60% {
-        transform: translateY(9px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
 @keyframes apear-scale {
     from {
-        transform: scale(50%,50%);
+        transform: scale(50%, 50%);
     }
+
     to {
         transform: scale(100%, 100%);
     }
@@ -49,7 +42,18 @@
     from {
         transform: translateY(-300%);
     }
+
     to {
         transform: translateY(0);
+    }
+}
+
+@keyframes waiting {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0;
     }
 }

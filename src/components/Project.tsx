@@ -1,17 +1,9 @@
-import "../css/projects.css";
+import "./css/projects.css";
+import { ProjectModel } from '../interfaces'
 
-interface ProjectModel {
-    name: string;
-    imgUrl: string;
-    resumen: string;
-    url?: string;
-    skillsImgUrl?: [string, string, string];
-    GitHubUrl?: string;
-}
-
-export default function Project({ project }: { project: ProjectModel }) {
+export const Project = ({ project, key }: { project: ProjectModel, key: string }) => {
     return (
-        <div className="project-container">
+        <div className="project-container" key={key}>
             <img src={project.imgUrl} alt="" className="project-img" />
             <div className="project-body">
                 <div className="project-head">
@@ -51,3 +43,4 @@ export default function Project({ project }: { project: ProjectModel }) {
         </div>
     );
 }
+
