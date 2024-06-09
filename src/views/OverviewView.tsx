@@ -32,8 +32,8 @@ export const OverviewView = () => {
 
             <div className='skills'>
                 <Icon name="react" size={50} />
-                <Icon name='html5' size={50} />
-                <Icon name='css' size={50} />
+                <Icon name='typescript' size={50} />
+                <Icon name='next' size={50} />
                 <Icon name='python' size={50} />
             </div>
 

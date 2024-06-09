@@ -15,13 +15,11 @@
 
 .profile {
     display: flex;
-    width: fit-content;
+    width: 850px;
     flex-direction: row;
 
-    gap: 40px;
-
     align-items: end;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .me {
@@ -130,7 +128,7 @@
 .presentacion {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    max-width: 900px;
 
     padding: 5px;
     padding-inline: 15px;
@@ -138,17 +136,64 @@
     border-left: 2px solid rgba(var(--secondary-color), 0.3);
 
     justify-content: center;
-    align-items: center;
 
     animation: apear-opacity 0.2s ease-in-out;
 }
 
 .presentacion p {
     margin-block: 10px !important;
-    text-wrap: pretty;
+
 
     color: rgb(var(--primary-color));
     letter-spacing: 1px;
     font-size: large;
-    text-align: center;
+    text-align: start;
+    text-wrap: pretty;
+}
+
+
+@media (width <= 930px) {
+    #Overview {
+        padding-top: 3rem;
+    }
+
+    .profile {
+        width: auto;
+        align-items: end;
+    }
+    .me {
+        align-items: center;
+    }
+
+    .name-container {
+        width: auto;
+    }
+
+
+    .name {
+        animation: none;
+        text-wrap: pretty;
+        width: auto;
+
+        font-size: 2.8rem;
+        text-align: center;
+    }
+
+    .profesion {
+        animation: none;
+        font-size: 1.5rem;
+        text-wrap: pretty;
+    }
+
+    .skills {
+        gap: 2rem;
+        justify-content: space-between;
+    }
+    .skills img {
+        width: 40px;
+    }
+
+    .contacto {
+        display: none;
+    }
 }
