@@ -18,13 +18,13 @@ export const OverviewView = () => {
                 <div className="contacto">
                     <ul>
                         <li className='contact-item'>
-                            <a href="https://github.com/SitoSt" target="_blank" rel="noopener noreferrer"><img src="/imgs/svg/github.svg" alt="Perfil de GitHub" /></a>
+                            <a href="https://github.com/SitoSt" target="_blank" rel="noreferrer"><img src="/imgs/svg/github_blue.svg" alt="Perfil de GitHub" /></a>
                         </li>
                         <li className='contact-item'>
                             <a href="mailto:alfonsogarrelopez@gmail.com"><img src="/imgs/svg/mail.svg" alt="Correo electrónico" /></a>
                         </li>
                         <li className='contact-item'>
-                            <a href="https://www.linkedin.com/in/alfonsolopezgarre" target="_blank" rel="noopener noreferrer"><img src="/imgs/svg/Linkedin.svg" alt="Perfil de linkedIn" /></a>
+                            <a href="https://www.linkedin.com/in/alfonsolopezgarre" target="_blank" rel="noreferrer"><img src="/imgs/svg/Linkedin.svg" alt="Perfil de linkedIn" /></a>
                         </li>
                     </ul>
                 </div>

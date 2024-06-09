@@ -36,17 +36,17 @@ const projectsData: ProjectModel[] = [
   {
     name: "Dl YouTube",
     imgUrl: "/imgs/projects/preview_dlyoutube.webp",
-    url: "https://dlyoutube.alfonsogarre.com",
+    url: "dlyoutube.alfonsogarre.com",
     resumen: ["Una web para descargar videos de YouTube. Fue un desafió desarrollarla en Flask y aprender a desplegarla."],
-    skillsImgUrl: ['imgs/svg/python.svg', 'imgs/svg/flask.svg', 'imgs/svg/docker.svg'],
+    skills: ['python', 'flask', 'docker'],
     GitHubUrl: 'https://github.com/SitoSt/Dl_YouTube'
   },
   {
     name: "Clima App",
     imgUrl: "/imgs/projects/preview_clima_app.webp",
-    url: "https://clima.alfonsogarre.com/",
+    url: "clima.alfonsogarre.com",
     resumen: ["Web simple que se conecta a la API de OpenWeather para mostrar el clima. Resulta una buena practica de manejo de API con NEXT"],
-    skillsImgUrl: ['imgs/svg/next.svg', 'imgs/svg/react.svg', 'imgs/svg/typescript.svg'],
+    skills: ['next', 'react', 'typescript'],
     GitHubUrl: 'https://github.com/SitoSt/Clima'
   }
 ]

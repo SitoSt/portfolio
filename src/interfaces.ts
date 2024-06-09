@@ -3,7 +3,7 @@ export interface ProjectModel {
     imgUrl: string;
     resumen: string[];
     url?: string;
-    skillsImgUrl: string[];
+    skills: string[];
     GitHubUrl?: string;
 }
 
