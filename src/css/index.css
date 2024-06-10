@@ -3,6 +3,7 @@
 @import 'tailwindcss/utilities';
 @import url(./animations.css);
 @import url(./vars.css);
+
 :root {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
@@ -21,7 +22,7 @@ body {
     margin: 0;
     padding: 0;
     z-index: -11;
-        background-color: transparent;
+    background-color: transparent;
 }
 
 #root {
@@ -41,58 +42,100 @@ main {
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     margin: 0;
     margin-top: 10rem;
-    width: 100%;
-    height: 90vh;
-    padding-block: 2rem;
-  
+    padding: 2rem;
+    gap: 4rem;
+
+
+
     background-color: rgba(var(--bg-color), 0.4);
-    
-        backdrop-filter: blur(1px);
-        -webkit-backdrop-filter: blur(1px);
+
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-nav .nav-list{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(var(--primary-color));
+    gap: 15px;
+
+    align-items: center;
+}
+.footer-nav .nav-link {
+    font-size: 1rem;
+}
+.footer-nav .nav-link:hover {
+    color: rgba(var(--secondary-color), 0.8);
 }
 
 footer .author {
     display: flex;
-    flex-direction: column;
-
-    width: 100%;
+    gap: 20px;
 
     justify-content: center;
-    align-items: center;
-    
+    align-items: start;
+
 }
 
 footer .author img {
-    width: 400px;
+    width: 100px;
 }
 
 footer .author p {
     font-size: 1.3rem;
-    margin-bottom: 3rem;
     color: rgb(var(--primary-color));
-    }
-    
-    footer .author p strong {
-        color: rgb(var(--accent-color));
 }
 
-.contact ul {
+footer .author p strong {
+    color: rgb(var(--accent-color));
+}
+
+footer .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 2rem;
+
+    justify-content: center;
+    align-items: start;
+}
+
+footer .contact p {
+    font-size: large;
+    font-weight: 600;
+}
+
+footer .contact ul {
     list-style: none;
     display: flex;
-    margin-top: 3rem;
-    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 9px;
 
-    align-items: center;
+    align-items: start;
     justify-content: center;
 
 }
 
-.contact-item {
-    margin-inline: 10px;
+footer .contact-item a {
+    color: rgb(var(--tertiary-color));
+    transition: color 0.2s ease-in;
+
+    &:hover {
+        color: rgba(var(--secondary-color), 0.8)
+    }
 }
 
-.contact-item img {
-    width: 50px;
+@media (width < 665px) {
+    footer .author {
+        flex-direction: column;
+    }
 }
