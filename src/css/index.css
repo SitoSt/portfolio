@@ -17,12 +17,19 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
     padding: 0;
     z-index: -11;
-    background-color: transparent;
+    background-color: rgb(var(--bg-color));
+    color: rgb(var(--primary-color));
 }
 
 #root {

@@ -40,7 +40,7 @@ export const HeaderView = () => {
                     </li>
 
                     <li className='nav-item'>
-                        <a className='nav-link' href="#contact" onClick={onClickLink}>Contacto</a>
+                        <a className='nav-link' href="#aboutMe" onClick={onClickLink}>Sobre mi</a>
                     </li>
 
                 </ul>

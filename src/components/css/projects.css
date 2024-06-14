@@ -1,13 +1,25 @@
 #projects {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
 
     width: 100%;
     margin-top: 5rem;
 
     gap: 5rem;
     justify-content: center;
+    align-items: center;
+}
+
+#projects .title {
+    width: 900px;
+    /* margin-bottom: -3rem; */
+
+    box-sizing: border-box;
+
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(var(--primary-color));
+    text-align: start;
 }
 
 .project-container {
@@ -39,6 +51,8 @@
     width: 100%;
     padding: 15px;
     margin: 0;
+
+    flex-wrap: wrap;
 
     align-items: end;
     justify-content: space-between;
@@ -84,6 +98,7 @@
     display: flex;
     margin-top: 10px;
     gap: 60px;
+    box-sizing: border-box;
 
     align-items: center;
     justify-content: flex-start;
@@ -122,6 +137,10 @@
 }
 
 @media (width < 950px) {
+    #projects .title {
+        width: 100%;
+        font-size: 2.6rem;
+    }
     .project-container {
         width: auto;
         padding: 0;
@@ -130,7 +149,6 @@
     .project-head h1 {
         font-size: 1.3rem;
 
-        flex-wrap: wrap;
     }
 
     .project-head a {

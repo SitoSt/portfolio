@@ -1,6 +1,6 @@
 import './css/App.css';
 import { Project } from './components';
-import { HeaderView, OverviewView, ContactView } from './views';
+import { HeaderView, OverviewView, AboutMeView } from './views';
 import { ProjectModel } from './interfaces';
 
 export const App = () => {
@@ -14,6 +14,8 @@ export const App = () => {
       <OverviewView />
 
       <section id="projects">
+        <h1 className='title'>Mis Proyectos</h1>
+
         {
           projectsData.map(project =>
             <Project key={project.name} project={project} />
@@ -22,8 +24,9 @@ export const App = () => {
 
       </section>
 
-      <section id='contact'>
-        <ContactView />
+      <section id='aboutMe'>
+        <h1 className='title'>Sobre mi</h1>
+        <AboutMeView />
       </section>
 
     </div>
