@@ -24,7 +24,7 @@ export const OverviewView = () => {
                             <a href="mailto:alfonsogarrelopez@gmail.com"><img src="/imgs/svg/mail.svg" alt="Correo electrónico" /></a>
                         </li>
                         <li className='contact-item'>
-                            <a href="https://www.linkedin.com/in/alfonsolopezgarre" target="_blank" rel="noreferrer"><img src="/imgs/svg/Linkedin.svg" alt="Perfil de linkedIn" /></a>
+                            <a href="https://www.linkedin.com/in/alfonsolopezgarre" target="_blank" rel="noreferrer"><img src="/imgs/svg/linkedin.svg" alt="Perfil de linkedIn" /></a>
                         </li>
                     </ul>
                 </div>
