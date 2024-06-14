@@ -148,7 +148,7 @@
     letter-spacing: 1px;
     font-size: large;
     text-align: start;
-    text-wrap: pretty;
+    text-wrap: balance;
 }
 
 
@@ -172,7 +172,7 @@
 
     .name {
         animation: none;
-        text-wrap: pretty;
+        text-wrap: balance;
         width: auto;
 
         font-size: 2.8rem;
@@ -182,7 +182,7 @@
     .profesion {
         animation: none;
         font-size: 1.5rem;
-        text-wrap: pretty;
+        text-wrap: balance;
     }
 
     .skills {
