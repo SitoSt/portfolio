@@ -39,13 +39,13 @@ export const OverviewView = () => {
 
             <div className='presentacion'>
                 <p>
-                    Empecé a programar con 12 años, primero aprendí a desarrollar videojuegos en unity con
-                    un curso de Domestika. Desde entonces he aprendido gran cantidad de lenguajes y me he
-                    movido por muchos lenguajes y tecnologías.
+                    Soy un desarrollador Full-Stack autodidacta que lleva años en el mundo del desarrollo web, aunque es ahora,
+                    mientras me graduaba de bachillerato, cuando he empezado a publicar mis proyectos y a afianzar mis conocimientos
+                    en arquitectura de software.
                 </p>
                 <p>
-                    Llevo años avanzando en el desarrollo web, lo que mas me gusta es el back-end, pero también
-                    domino front-end y mucho mas para poder desarrollar mis proyectos
+                    Este año voy a empezar la carrera de Ingeniería Informática en la Universidad Politécnica de Valencia.
+                    Aspiro a ser un desarrollador con sólidos conocimientos y capacidad para adaptarse a cualquier tecnología.
                 </p>
             </div>
 

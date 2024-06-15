@@ -25,7 +25,6 @@
     font-weight: 500;
     color: rgb(var(--primary-color));
     text-align: start;
-    text-wrap: balance;
 }
 
 @media (width < 950px) {

@@ -90,7 +90,6 @@
     font-size: 1.12rem;
     color: rgb(var(--primary-color));
     text-align: start;
-    text-wrap: balance;
 }
 
 .project-footer {
