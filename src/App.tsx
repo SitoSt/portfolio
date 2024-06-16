@@ -44,7 +44,7 @@ const projectsData: ProjectModel[] = [
       `Esta es una web que permite descargar videos y audios de YouTube, está escrita en Python usando las librerías de Flask
        y pytube. Esta última ofrece un montón de opciones, como descargar playlists enteras, buscar videos por canal o nombre y más.`,
       `Por ahora Dl YouTube solo puede descargar con la URL del video, pero estoy deseando mejorarlo y añadir el resto de 
-       funcionalidades que proporciona pytube`
+       funcionalidades que proporciona pytube.`
     ],
     skills: ['python', 'flask', 'docker'],
     GitHubUrl: 'https://github.com/SitoSt/Dl_YouTube'
@@ -58,7 +58,7 @@ const projectsData: ProjectModel[] = [
        y un reducer, para poder gestionar la geolocalización del usuario, las peticiones a las diferentes API y sobre todo 
        para hacerlo más escalable.`,
       `Me ha servido mucho a la hora de añadir nuevas funcionalidades (como el autocompletado) sin tener que hacer grandes
-       cambios en el código`],
+       cambios en el código.`],
     skills: ['next', 'react', 'typescript'],
     GitHubUrl: 'https://github.com/SitoSt/Clima'
   }
