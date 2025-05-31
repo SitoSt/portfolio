@@ -39,13 +39,13 @@ export const OverviewView = () => {
 
             <div className='presentacion'>
                 <p>
-                    Soy un desarrollador Full-Stack autodidacta que lleva años en el mundo del desarrollo web, aunque es ahora,
-                    mientras me graduaba de bachillerato, cuando he empezado a publicar mis proyectos y a afianzar mis conocimientos
-                    en arquitectura de software.
+                    Soy un desarrollador Full-Stack autodidacta que lleva años en el mundo del desarrollo web, aunque hasta
+                    el año pasado no empecé a publicar mis proyectos y a afianzar mis conocimientos en arquitectura de software.
                 </p>
                 <p>
-                    Este año voy a empezar la carrera de Ingeniería Informática en la Universidad Politécnica de Valencia.
-                    Aspiro a ser un desarrollador con sólidos conocimientos y capacidad para adaptarse a cualquier tecnología.
+                    Actualmente, estoy estudiando Ingeniería Informática en la Universidad de Valencia. En la carrera he aprendido
+                    cosas como, estructuras de datos complejas, gestión de memoria y arquitecturas de software, cosas que
+                    estoy poniendo en práctica en los nuevos proyectos que estoy desarrollando actualmente.
                 </p>
             </div>
 

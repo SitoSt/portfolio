@@ -39,14 +39,14 @@ const projectsData: ProjectModel[] = [
   {
     name: "Dl YouTube",
     imgUrl: "/imgs/projects/preview_dlyoutube.webp",
-    url: "dlyoutube.alfonsogarre.com",
     resumen: [
-      `Esta es una web que permite descargar videos y audios de YouTube, está escrita en Python usando las librerías de Flask
-       y pytube. Esta última ofrece un montón de opciones, como descargar playlists enteras, buscar videos por canal o nombre y más.`,
-      `Por ahora Dl YouTube solo puede descargar con la URL del video, pero estoy deseando mejorarlo y añadir el resto de 
-       funcionalidades que proporciona pytube.`
+      `Desarrollé una aplicación web desde cero que permite a los usuarios descargar videos de YouTube sin problemas.`,
+      `Aunque actualmente está inactiva debido a la discontinuación de la biblioteca de Pytube, el proyecto demuestra mi 
+      dominio de la arquitectura back-end basada en Flask, la gestión de rutas y  un front-end responsivo con HTML puro.`,
+      `También muestra mi capacidad de adaptación a tecnologías desconocidas, desarrollando y aprendiendo desde cero de
+      forma independiente`
     ],
-    skills: ['python', 'flask', 'docker'],
+    skills: ['python', 'flask'],
     GitHubUrl: 'https://github.com/SitoSt/Dl_YouTube'
   },
   {
